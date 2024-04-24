@@ -1,2 +1,6 @@
-package org.example.platforms;public interface IPlatform {
+package org.example.platforms;
+
+public interface IPlatform {
+    void configureRMTP();
+    void authToken();
 }
